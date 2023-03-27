@@ -16,10 +16,10 @@
 - [Источники](#Источники)
 
 ## Технологии
-![HTML5 badge](https://img.shields.io/badge/-HTML5-%23003?logo=html5)
-![CSS3 badge](https://img.shields.io/badge/-CSS3-%23003?logo=CSS3&logoColor=%231572B6)
-![Vite badge](https://img.shields.io/badge/-Vite-%23003?color=%23FFC119&logo=vite)
-![Figma badge](https://img.shields.io/badge/-Figma-%23003?logo=Figma&logoColor=%23F24E1E)
+[![HTML5 badge](https://img.shields.io/badge/-HTML5-%23003?logo=html5)](#)
+[![CSS3 badge](https://img.shields.io/badge/-CSS3-%23003?logo=CSS3&logoColor=%231572B6)](#)
+[![Vite badge](https://img.shields.io/badge/-Vite-%23003?color=%23FFC119&logo=vite)](#)
+[![Figma badge](https://img.shields.io/badge/-Figma-%23003?logo=Figma&logoColor=%23F24E1E)](#)
 
 ### Мотивация
 Цель - научиться вестрать сайт по шаблону из Figma, используя HTML5, CSS3 и сборщик Vite.
