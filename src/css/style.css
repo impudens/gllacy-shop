@@ -1,0 +1,35 @@
+html,
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.page-header {
+    width: 1170px;
+    height: 104px;
+    margin: 0 98px 0 98px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-navigation {
+    display: flex;
+    margin: 24px 0 24px 0;
+    gap: 16px;
+}
+
+.page-logo {
+    align-self: center;
+}
+
+.page-navigation-list {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    list-style-type: none;
+}
+
+.page-navigation-item {
+    align-self: center;
+    padding: 8px 16px 8px 16px;
+}
