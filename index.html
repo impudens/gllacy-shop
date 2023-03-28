@@ -10,22 +10,108 @@
 <body>
   <header class="page-header">
     <nav class="page-navigation">
-      <div class="page-logo">gllacy-shop</div>
+      <div class="page-logo">
+        <img class="page-logo-image" src="src/images/page-logo.svg" alt="Page logo" width="137px">
+      </div>
       <ul class="page-navigation-list">
-        <li class="page-navigation-item">Каталог</li>
-        <li class="page-navigation-item">Доставка и оплата</li>
-        <li class="page-navigation-item">О компании</li>
+        <li class="page-navigation-item catalog">
+          <div class="dropdown-catalog">
+            Каталог
+            <img class="catalog-arrow-down" src="src/images/arow-down.svg" alt="Arrow down" height="16px">
+            <ul class="dropdown-catalog-list">
+              <li class="dropdown-catalog-item news">Новинки</li>
+              <li class="dropdown-catalog-item border-for-news"></li>
+              <li class="dropdown-catalog-item">Сливочное</li>
+              <li class="dropdown-catalog-item">Щербеты</li>
+              <li class="dropdown-catalog-item">Фруктовый лед</li>
+              <li class="dropdown-catalog-item">Мелорин</li>
+            </ul>
+          </div>
+        </li>
+        <li class="page-navigation-item">
+          <a class="link" href="#">Доставка и оплата</a>
+        </li>
+        <li class="page-navigation-item">
+          <a class="link" href="#">О комании</a>
+        </li>
       </ul>
     </nav>
     <div class="page-menu">
       <ul class="page-menu-list">
-        <li class="page-menu-item page-menu-phone-number">Номер телефона</li>
-        <li class="page-menu-item page-menu-phone-search-button button">Поиск</li>
-        <li class="page-menu-item page-menu-phone-enter-button button">Вход</li>
-        <li class="page-menu-item page-menu-phone-storage-button button">Корзина</li>
+        <li class="page-menu-item">
+          <a class="link phone-link" href="tel:+78005558628">+7 800 555-86-28</a>
+        </li>
+        <li class="page-menu-item">
+          <button class="button search-button">
+            <img class="search-logo" src="src/images/search.svg" alt="search" height="16px" width="16px">
+          </button>
+        </li>
+        <li class="page-menu-item">
+          <button class="button">
+            <img class="enter-logo" src="src/images/enter.svg" alt="enter" height="16px" width="16px">
+            Вход
+          </button>
+        </li>
+        <li class="page-menu-item">
+          <button class="button">
+            <img class="storage-logo" src="src/images/storage.svg" alt="storage" height="16px" width="16px">
+            Корзина
+          </button>
+        </li>
       </ul>
     </div>
   </header>
+  <footer class="page-footer">
+    <ul class="social-list">
+      <li class="social-list-item">
+        <a href="https://t.me/troff_webdev" class="link">
+          <img class="telegram-logo-image" src="src/images/telegram-logo.svg" alt="telegram logo" width="24px"
+            height="24px">
+        </a>
+      </li>
+      <li class="social-list-item">
+        <a href="https://vk.com/i1_trofimov" class="link">
+          <img class="vk-logo-image" src="src/images/vk-logo.svg" alt="vk logo" width="24px" height="24px">
+        </a>
+      </li>
+      <li class="social-list-item">
+        <a href="https://youtube.com/" class="link">
+          <img class="youtube-logo-image" src="src/images/youtube-logo.svg" alt="youtube logo" width="24px"
+            height="24px">
+        </a>
+      </li>
+    </ul>
+    <ul class="footer-menu-list">
+      <li class="footer-menu-item">
+        <a href="#" class="link current">
+          <img class="heartfill-image" src="src/images/Heart-fill.svg" alt="heartfill image" width="16px" height="16px">
+          Для поставщиков
+        </a>
+      </li>
+      <li class="footer-menu-item">
+        <a href="#" class="link">
+          О производстве
+        </a>
+      </li>
+      <li class="footer-menu-item">
+        <a href="#" class="link">
+          Наши документы
+        </a>
+      </li>
+      <li class="footer-menu-item">
+        <a href="#" class="link">
+          Экологические стандарты
+        </a>
+      </li>
+    </ul>
+    <div class="created-by">
+      Created By
+      <a href="https://github.com/impudens" class="link">
+        <img class="impudens-github-shield-image" src="src/images/impudens-github-logo.svg" alt="impudens github shield"
+          height="24px">
+      </a>
+    </div>
+  </footer>
 </body>
 
 </html>
