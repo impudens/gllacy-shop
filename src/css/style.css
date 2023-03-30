@@ -37,7 +37,7 @@ body {
     height: 104px;
     margin: 0 98px 0 98px;
     display: flex;
-    justify-content: space-between;
+    gap: 164px;
 }
 
 .page-navigation {
@@ -105,7 +105,7 @@ body {
 }
 
 .button {
-    border-radius: 27px;
+    border-radius: 30px;
     padding: 8px 16px;
     display: flex;
     flex-direction: row;
@@ -114,13 +114,38 @@ body {
     border: 0;
     font-size: 14px;
     color: #2D3440;
-    background-color: #FFCBD8;
+    background-color: #FCFCFC4D;
 }
 
 .search-button {
     width: 32px;
+    border-radius: 27px;
     height: 32px;
     padding: 8px;
+}
+
+.search-button:hover {
+    background-color: #FCFCFC80;
+}
+
+.search-button:active {
+    background-color: #FCFCFC;
+    border: none;
+}
+
+.search-button:focus {
+    background-color: #FCFCFC80;
+    border: 2px solid #2D3440;
+}
+
+.page-navigation-item:hover {
+    border-radius: 30px;
+    background-color: #FCFCFC80;
+}
+
+.page-menu-item:hover {
+    border-radius: 30px;
+    background-color: #FCFCFC80;
 }
 
 .page-footer {
@@ -227,4 +252,125 @@ body {
     margin-left: 20px;
     margin-bottom: 4px;
     height: 0;
+}
+
+
+.ice-cream-slider-section {
+    width: 1170px;
+    height: 554px;
+    margin: 0 98px 80px 98px;
+    display: flex;
+    flex-direction: row;
+}
+
+.ad-section {
+    width: 1170px;
+    height: 416px;
+    margin: 0 98px 80px 98px;
+    background-color: yellow;
+}
+
+.goods-section {
+    width: 1170px;
+    height: 480px;
+    margin: 0 98px 80px 98px;
+    background-color: white;
+}
+
+.gllacy-shop-info-section {
+    width: 1170px;
+    height: 480px;
+    margin: 0 98px 80px 98px;
+    background-color: red;
+}
+
+.subscribe-section {
+    width: 1170px;
+    height: 224px;
+    margin: 0 98px 80px 98px;
+    background-color: green;
+}
+
+.delivery-section {
+    width: 1170px;
+    height: 534px;
+    margin: 0 98px 80px 98px;
+    background-color: pink;
+}
+
+.feedback-section {
+    width: 1170px;
+    height: 492px;
+    margin: 0 98px 0 98px;
+    background-color: black;
+}
+
+.ice-cream-about {
+    padding: 136px 0 136px 68px;
+    margin-right: 41px;
+    width: 429px;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 900;
+    line-height: 46px;
+    margin: 0 0 24px 0;
+}
+
+.main-p {
+    margin: 0 0 48px 0;
+    width: 429px;
+    font-size: 18px;
+    font-weight: 400px;
+}
+
+.main-button {
+    background-color: #FCFCFC;
+    padding: 12px 32px;
+    border-radius: 26px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.slide-show-main-card {
+    width: 348px;
+    height: 554px;
+    margin-right: 41px;
+}
+
+.big-ice-cream-red {
+    padding: 21px 21px 26px 21px;
+}
+
+.slide-show-next-first {
+    padding: 204px 0 200px 0;
+    margin-right: 41px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-show-next-second {
+    padding: 204px 0 200px 0;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.page-bullets {
+    height: 12px;
+    width: auto;
+    display: flex;
+    gap: 8px;
+    position: relative;
+    top: 550px;
+    left: 98px;
+}
+
+.bullet {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #FCFCFC;
 }
