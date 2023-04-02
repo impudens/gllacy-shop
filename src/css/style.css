@@ -37,6 +37,7 @@ body {
     height: 104px;
     margin: 0 98px 0 98px;
     display: flex;
+    justify-content: space-between;
     gap: 164px;
 }
 
@@ -333,30 +334,7 @@ h1 {
     font-weight: 700;
 }
 
-.slide-show-main-card {
-    width: 348px;
-    height: 554px;
-    margin-right: 41px;
-}
 
-.big-ice-cream-red {
-    padding: 21px 21px 26px 21px;
-}
-
-.slide-show-next-first {
-    padding: 204px 0 200px 0;
-    margin-right: 41px;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-}
-
-.slide-show-next-second {
-    padding: 204px 0 200px 0;
-    width: 100px;
-    display: flex;
-    justify-content: center;
-}
 
 .page-bullets {
     height: 12px;
@@ -373,4 +351,57 @@ h1 {
     height: 12px;
     border-radius: 50%;
     background-color: #FCFCFC;
+}
+
+
+
+
+
+/* Main block */
+
+.slide-show-main-card {
+    width: 348px;
+    height: 554px;
+    margin-right: 41px;
+    display: flex;
+    justify-content: center;
+}
+
+.slide-show-next {
+    width: 150px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-ice-cream {
+    margin-right: 41px;
+}
+
+.big-ice-cream-red {
+    padding: 21px 21px 26px 21px;
+}
+
+.yellow-little-ice-cream,
+.white-little-ice-cream {
+    position: absolute;
+}
+
+
+.back-pictire {
+    background-color: #FFCBD8;
+    width: 100px;
+    height: 100px;
+    align-self: center;
+    border-radius: 50%;
+    z-index: -1;
+    opacity: 40%;
+}
+
+.main-back-pictire {
+    width: 312px;
+    height: 312px;
+    opacity: 1;
 }
