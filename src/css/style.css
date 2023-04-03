@@ -266,12 +266,7 @@ body {
 
 
 
-.ad-section {
-    width: 1170px;
-    height: 416px;
-    margin: 0 98px 80px 98px;
-    background-color: yellow;
-}
+
 
 .goods-section {
     width: 1170px;
@@ -451,4 +446,72 @@ h1 {
     position: absolute;
     top: 636px;
     left: 1174px;
+}
+
+/* 
+    Ad section
+ */
+.ad-section {
+    width: 1170px;
+    height: 416px;
+    margin: 0 98px 80px 98px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ad-section-h2 {
+    margin: 0 368px 55px;
+    font-weight: 900;
+    font-size: 32px;
+    text-align: center;
+    line-height: 46px;
+    height: 92px;
+    color: #2D3440;
+}
+
+.ad-banners {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.banner {
+    width: 570px;
+    height: 269px;
+    background: #FF7799;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h3 {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.ad-banner-about {
+    width: 328px;
+    display: flex;
+    padding: 36px;
+    padding-right: 0;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ad-main-p {
+    text-align: start;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+p {
+    margin: 0;
+}
+
+.ad-button {
+    width: 176px;
 }
