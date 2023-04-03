@@ -268,12 +268,6 @@ body {
 
 
 
-.goods-section {
-    width: 1170px;
-    height: 480px;
-    margin: 0 98px 80px 98px;
-    background-color: white;
-}
 
 .gllacy-shop-info-section {
     width: 1170px;
@@ -514,4 +508,105 @@ p {
 
 .ad-button {
     width: 176px;
+}
+
+/* 
+    Goods section
+*/
+
+
+.goods-section {
+    width: 1170px;
+    height: 480px;
+    margin: 0 98px 80px 98px;
+    display: flex;
+    flex-direction: column;
+}
+
+.goods-section-h2 {
+    width: 527px;
+    margin: 0 321.5px 107px;
+    text-align: center;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    height: 92px;
+    color: #2D3440;
+}
+
+.goods-list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+.goods-list-item {
+    width: 270px;
+    height: 281px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    gap: 16px;
+    background-color: #FCFCFC;
+    border-radius: 8px;
+}
+
+.goods-about {
+    display: flex;
+    width: 190px;
+    height: 124px;
+    padding: 0 40px 24px;
+    flex-direction: column;
+    text-align: center;
+}
+
+.goods-item-image {
+    margin-top: -51px;
+}
+
+.to-buy-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h4 {
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #2D3440;
+}
+
+.goods-description {
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #565C66;
+}
+
+.item-price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+    align-self: center;
+}
+
+.red-button {
+    width: 32px;
+    height: 32px;
+    background-color: #FF2F64;
+    border-radius: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
