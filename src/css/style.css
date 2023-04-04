@@ -19,6 +19,20 @@
     src: url("/public/fonts/inter-900.woff2");
 }
 
+
+
+/* TEMPLATES */
+
+.input-block {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B9B9B9;
+    padding: 14px 0 14px 16px;
+    border: 1px solid #B9B9B9;
+    border-radius: 4px;
+}
+
 html,
 body {
     padding: 0;
@@ -196,7 +210,6 @@ body {
     width: 1170px;
     height: 153px;
     margin: 0 98px 0 98px;
-    border-top: 1px solid #FCFCFC;
 }
 
 .social-list {
@@ -265,26 +278,6 @@ body {
 
 
 
-
-
-
-
-
-
-
-.feedback-section {
-    width: 1170px;
-    height: 492px;
-    margin: 0 98px 0 98px;
-    background-color: black;
-}
-
-
-
-
-
-
-
 /* Ice-cream slider section */
 
 .ice-cream-slider-section {
@@ -312,7 +305,7 @@ h1 {
     margin: 0 0 48px 0;
     width: 429px;
     font-size: 18px;
-    font-weight: 400px;
+    font-weight: 400;
 }
 
 .main-button {
@@ -562,7 +555,6 @@ h4 {
     font-weight: 700;
     font-size: 20px;
     line-height: 24px;
-    text-align: center;
     color: #2D3440;
 }
 
@@ -717,16 +709,10 @@ h4 {
 }
 
 .subcribition-email-input {
-    width: 316px;
-    height: 48px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    color: #B9B9B9;
-    padding-left: 16px;
-    border: 1px solid #B9B9B9;
-    border-radius: 4px;
+    width: 332px;
 }
+
+
 
 .subscribe-block {
     width: 570px;
@@ -820,25 +806,108 @@ h4 {
     width: 117px;
     height: 76px;
     margin: 0 16px 20px 0;
-    background-color: red;
+}
+
+.form-lebel {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #2D3440;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.form-element {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .phone-number {
     width: 287px;
     height: 76px;
     margin-bottom: 20px;
-    background-color: red;
 }
 
 .adress {
     width: 420px;
     height: 76px;
     margin-bottom: 32px;
-    background-color: red;
 }
 
 .delivery-form-button {
     width: 152px;
     height: 44px;
     margin: 0 134px 0;
+}
+
+/* 
+    Feedback section
+*/
+
+.feedback-section {
+    width: 1170px;
+    height: 492px;
+    margin: 0 98px 0 98px;
+    background-image: url("/src/images/feedback-section-background-image.jpg");
+    border-radius: 16px;
+    display: flex;
+}
+
+.feedback-form-block {
+    margin: 64px 0 0 64px;
+    width: 343px;
+    height: 364px;
+    background-color: #FCFCFC;
+    border-radius: 8px;
+}
+
+.main-office-addres-p {
+    margin: 40px 0px 12px 40px;
+    width: 179px;
+    height: 44px;
+}
+
+.paragraph2 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.main-office-addres-h4 {
+    margin: 0 0px 24px 40px;
+}
+
+.title4 {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #2D3440;
+}
+
+.main-office-phone-number-h4 {
+    margin: 0 0 0 40px;
+}
+
+.main-office-phone-p {
+    margin-left: 40px;
+    margin-bottom: 12px;
+}
+
+.main-office-phone-signature {
+    margin-left: 40px;
+    margin-bottom: 32px;
+}
+
+.signature {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #565C66;
+}
+
+.feedback-to-form-button {
+    margin: 0 0 40px 40px;
 }
