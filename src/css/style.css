@@ -270,19 +270,7 @@ body {
 
 
 
-.subscribe-section {
-    width: 1170px;
-    height: 224px;
-    margin: 0 98px 80px 98px;
-    background-color: green;
-}
 
-.delivery-section {
-    width: 1170px;
-    height: 534px;
-    margin: 0 98px 80px 98px;
-    background-color: pink;
-}
 
 .feedback-section {
     width: 1170px;
@@ -667,4 +655,190 @@ h4 {
     font-size: 16px;
     line-height: 22px;
     color: #565C66;
+}
+
+/* 
+    Subscribe-section
+*/
+
+.subscribe-section {
+    width: 1170px;
+    height: 224px;
+    margin: 0 98px 80px 98px;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.news-block {
+    width: 570px;
+    height: 224px;
+    border-radius: 16px;
+    background-image: url("/src/images/news-background-image.png");
+    display: flex;
+    flex-direction: column;
+    gap: 12.22px;
+}
+
+.news-block-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #565C66;
+    margin: 32.59px 0 0 32px;
+}
+
+.news-block-h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2D3440;
+    width: 303px;
+    margin-left: 32px;
+}
+
+.subcribe-to-me-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    margin: 26px 26px 42px 26px;
+    width: 506px;
+    height: 66px;
+    color: #565C66;
+}
+
+.subcribition-block {
+    width: 506px;
+    height: 52px;
+    margin: 0 26px 26px;
+    display: flex;
+    flex-direction: row;
+    gap: 18px;
+}
+
+.subcribition-email-input {
+    width: 316px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B9B9B9;
+    padding-left: 16px;
+    border: 1px solid #B9B9B9;
+    border-radius: 4px;
+}
+
+.subscribe-block {
+    width: 570px;
+    height: 224px;
+    border-radius: 16px;
+    background-image: url("/src/images/subscribe-block-bacground-image.jpg");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subcribe-to-me {
+    width: 558px;
+    height: 212px;
+    background-color: #FFFFFF;
+    border-radius: 16px;
+}
+
+.red-big-button {
+    padding: 12px 32px 12px 32px;
+    background-color: #FF2F64;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #FCFCFC;
+    border-radius: 26px;
+}
+
+.delivery-section {
+    width: 1170px;
+    height: 534px;
+    margin: 0 98px 80px 98px;
+    background-image: url("/src/images/delivery-section-background-image.jpeg");
+    border-radius: 16px;
+    display: flex;
+    flex-direction: row;
+}
+
+.delivery-info {
+    width: 371px;
+    height: 204px;
+    margin: 167px 135px 163px 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.delivery-info-title {
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 46px;
+    color: #2D3440;
+    margin: 0;
+}
+
+.delivery-info-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
+}
+
+.delivery-form-block {
+    background-color: #FCFCFC;
+    width: 500px;
+    height: 406px;
+    border-radius: 8px;
+    margin: 64px 64px 0 0;
+}
+
+.delivery-form-description {
+    margin: 40px 0 32px 40px;
+    width: 380px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #565C66;
+}
+
+#delivery-form {
+    width: 420px;
+    height: 248px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.date {
+    width: 117px;
+    height: 76px;
+    margin: 0 16px 20px 0;
+    background-color: red;
+}
+
+.phone-number {
+    width: 287px;
+    height: 76px;
+    margin-bottom: 20px;
+    background-color: red;
+}
+
+.adress {
+    width: 420px;
+    height: 76px;
+    margin-bottom: 32px;
+    background-color: red;
+}
+
+.delivery-form-button {
+    width: 152px;
+    height: 44px;
+    margin: 0 134px 0;
 }
