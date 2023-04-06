@@ -324,8 +324,26 @@ h1 {
     align-items: center;
 }
 
-.back-picture {
+.back-picture-red {
     background-color: #FFCBD8;
+    opacity: 0.4;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.back-picture-blue {
+    background-color: #9FC8FF;
+    opacity: 0.4;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0;
+}
+
+.back-picture-yellow {
+    background-color: #FCDC92;
     opacity: 0.4;
     width: 100px;
     height: 100px;
