@@ -11,7 +11,9 @@
   <header class="page-header">
     <nav class="page-navigation">
       <div class="page-logo">
-        <img class="page-logo-image" src="src/images/page-logo.svg" alt="Page logo" width="137">
+        <a href="index.html">
+          <img class="page-logo-image" src="src/images/page-logo.svg" alt="Page logo" width="137">
+        </a>
       </div>
       <ul class="page-navigation-list">
         <li class="page-navigation-item catalog">
@@ -52,11 +54,50 @@
             Вход
           </button>
         </li>
-        <li class="page-menu-item">
+        <li class="page-menu-item storage-block">
           <button class="button">
             <img class="storage-logo" src="src/images/storage.svg" alt="storage" height="16" width="16">
             Корзина
           </button>
+          <div class="storage-dropdown">
+            <h3 class="storage-dropdown-h3">Корзина</h3>
+            <ul class="storage-list">
+              <li class="storage-list-item">
+                <div class="item-description">
+                  <img src="src/images/raspberry-ice-cream.png" alt="raspberry ice-cream" width="46">
+                  <div class="item-name">
+                    <h6 class="item-full-name">Малинка</h6>
+                    <p class="signature">1 кг х 310 ₽</p>
+                  </div>
+                </div>
+                <div class="price-block">
+                  <h6 class="item-price">310 ₽</h6>
+                  <button class="storage-list-item-delete-button">
+                    <img src="src/images/cross.svg" alt="Cross button" width="16px">
+                  </button>
+                </div>
+              </li>
+              <li class="storage-list-item">
+                <div class="item-description">
+                  <img src="src/images/bable-gum-ice-cream.png" alt="buble-gum ice-cream" width="46" height="46">
+                  <div class="item-name">
+                    <h6 class="item-full-name">Бабл-гам</h6>
+                    <p class="signature">1,5 кг х 320 ₽</p>
+                  </div>
+                </div>
+                <div class="price-block">
+                  <h6 class="item-price">480 ₽</h6>
+                  <button class="storage-list-item-delete-button">
+                    <img src="src/images/cross.svg" alt="Cross button" width="16px">
+                  </button>
+                </div>
+              </li>
+            </ul>
+            <div class="make-order">
+              <button class="red-big-button">Оформить заказ</button>
+              <h6 class="item-price" id="total-price">Итого: 790 ₽</h6>
+            </div>
+          </div>
         </li>
       </ul>
     </div>

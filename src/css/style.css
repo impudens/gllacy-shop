@@ -117,6 +117,110 @@ body {
     border-radius: 4px;
 }
 
+.storage-dropdown {
+    position: absolute;
+    width: 441px;
+    height: 382px;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    top: 76px;
+    left: 827px;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+}
+
+.storage-block:hover .storage-dropdown {
+    display: flex;
+}
+
+.storage-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 24px;
+    padding: 0;
+    margin: 0 0 32px 48px;
+}
+
+.storage-dropdown-h3 {
+    margin: 48px 0 32px 48px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #2D3440;
+}
+
+.storage-list-item {
+    width: 345px;
+    height: 46px;
+    padding: 0;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-description {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
+.item-name {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.item-price {
+    margin-right: 52px;
+    width: auto;
+}
+
+h6 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #2D3440;
+    margin: 0;
+}
+
+.storage-list-item-delete-button {
+    padding: 0;
+    width: 16px;
+    height: 16px;
+    border: 0;
+    background-color: #FCFCFC;
+    display: flex;
+    align-items: center;
+}
+
+.make-order {
+    margin-left: 48px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+#total-price {
+    margin: 0;
+    width: auto;
+}
+
+.price-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.storage-list-item:last-child {
+    padding-bottom: 32px;
+    border-bottom: 1px solid #E7E7E7;
+}
+
 .catalog:hover .dropdown-catalog-list,
 .catalog:focus .dropdown-catalog-list {
     display: flex;
@@ -584,14 +688,6 @@ h4 {
     color: #565C66;
 }
 
-.item-price {
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 24px;
-    color: #2D3440;
-    align-self: center;
-}
-
 .red-button {
     width: 32px;
     height: 32px;
@@ -749,7 +845,7 @@ h4 {
 }
 
 .red-big-button {
-    padding: 12px 32px 12px 32px;
+    padding: 12px 32px;
     background-color: #FF2F64;
     font-weight: 700;
     font-size: 16px;
