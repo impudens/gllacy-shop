@@ -43,7 +43,7 @@ body {
     font-family: Inter;
     font-size: 16px;
     color: #2D3440;
-    background-color: #feafc3;
+    background-color: #FCC850;
 }
 
 /* 
@@ -325,7 +325,7 @@ h1 {
 }
 
 .back-picture {
-    background-color: #FFCBD8;
+    background-color: #FCDC92;
     opacity: 0.4;
     width: 100px;
     height: 100px;
