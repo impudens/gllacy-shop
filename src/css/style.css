@@ -117,6 +117,67 @@ body {
     border-radius: 4px;
 }
 
+.enter-dropdown-form {
+    position: absolute;
+    width: 420px;
+    height: 350px;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    top: 76px;
+    left: 725px;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+}
+
+.enter-button:hover .enter-dropdown-form {
+    display: flex;
+}
+
+.enter-form-title {
+    margin: 48px 0 0 48px;
+}
+
+.enter-form-email-input {
+    margin: 32px 0 0 48px;
+    width: 308px;
+    height: 20px;
+    border: 1px solid #B9B9B9;
+    border-radius: 4px;
+    padding: 14px 0 14px 16px;
+    color: #2D3440;
+}
+
+
+.enter-form-password-input {
+    margin: 16px 0 0 48px;
+    width: 308px;
+    height: 20px;
+    border: 1px solid #B9B9B9;
+    border-radius: 4px;
+    padding: 14px 0 14px 16px;
+    color: #2D3440;
+}
+
+.enter-form-buttons-and-links-block {
+    display: flex;
+    margin: 32px 0 0 48px;
+}
+
+.enter-form-links-block {
+    display: flex;
+    flex-direction: column;
+    margin-left: 23px;
+    justify-content: space-between;
+}
+
+.enter-form-links {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #2D3440;
+}
+
 .storage-dropdown {
     position: absolute;
     width: 441px;
