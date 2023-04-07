@@ -171,11 +171,43 @@ body {
     justify-content: space-between;
 }
 
-.enter-form-links {
+.enter-form-link {
     font-weight: 400;
-    font-size: 14px;
+    font-size: 16px;
     line-height: 20px;
     color: #2D3440;
+}
+
+.search-dropdown-form {
+    position: absolute;
+    width: 356px;
+    height: 96px;
+    background-color: #FCFCFC;
+    border-radius: 4px;
+    top: 76px;
+    left: 687px;
+    z-index: 2;
+    display: none;
+    flex-direction: column;
+}
+
+.search-input {
+    margin: 24px 16px;
+    width: 310px;
+    height: 48px;
+    border: 1px solid #B9B9B9;
+    border-radius: 4px;
+    padding: 0;
+    padding-left: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B9B9B9;
+}
+
+
+.search-block:hover .search-dropdown-form {
+    display: flex;
 }
 
 .storage-dropdown {
