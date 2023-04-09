@@ -10,11 +10,13 @@ let iceCreamSliderLittleImageSecond = document.querySelector(".little-ice-cream-
 let iceCreamSliderBulletFirst = document.querySelector(".first-bullet");
 let iceCreamSliderBulletSecond = document.querySelector(".second-bullet");
 let iceCreamSliderBulletThird = document.querySelector(".third-bullet");
-
 let body = document.querySelector("body");
+let feedBackPopupBackground = document.querySelector(".feedback-popup-block");
+let feedBackPopup = document.querySelector(".feedback-popup");
 
 
-
+let feedBackOpenPopupButton = document.querySelector(".feedback-to-form-button");
+let feedBackClosePopupButton = document.getElementById("feedback-popup-close-button");
 let iceCreamSliderLeftArrow = document.querySelector(".slider-left-arrow");
 let iceCreamSliderRightArrow = document.querySelector(".slider-right-arrow");
 let currentPage = 0;
@@ -113,5 +115,21 @@ let iceCreamSliderSwitch = () => {
         }
     });
 };
+let openFeedBackPopup = () => {
+    feedBackOpenPopupButton.addEventListener('click', (evt) => {
+        evt.preventDefault();
+        feedBackPopupBackground.classList.remove("hidden-block");
+        feedBackPopup.classList.remove("hidden-block");
+    });
+}
 
+let closeFeedBackPopup = () => {
+    feedBackClosePopupButton.addEventListener('click', (evt) => {
+        evt.preventDefault();
+        feedBackPopupBackground.classList.add("hidden-block");
+        feedBackPopup.classList.add("hidden-block");
+    });
+}
 iceCreamSliderSwitch();
+closeFeedBackPopup();
+openFeedBackPopup();

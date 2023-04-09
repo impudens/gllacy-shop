@@ -1117,3 +1117,75 @@ h4 {
 .feedback-to-form-button {
     margin: 0 0 40px 40px;
 }
+
+.feedback-popup-block {
+    position: absolute;
+    width: 1366px;
+    height: 3917px;
+    left: 0px;
+    top: 0px;
+    background-color: #2D3440;
+    opacity: 0.3;
+    z-index: 3;
+    display: block;
+}
+
+.feedback-popup {
+    position: absolute;
+    width: 570px;
+    height: 545px;
+    left: 398px;
+    top: 2879px;
+    opacity: 1;
+    background-color: #FCFCFC;
+    box-shadow: 0px 15px 40px rgba(45, 52, 64, 0.12);
+    border-radius: 8px;
+    z-index: 4;
+}
+
+.feedback-popup-form {
+    margin: 64px 64px 66px 64px;
+    display: flex;
+    flex-direction: column;
+}
+
+.popup-input {
+    padding-left: 16px;
+    width: 426px;
+    height: 48px;
+    border: 1px solid #B9B9B9;
+    border-radius: 4px;
+}
+
+.feedback-popup-form-name-input {
+    margin-top: 32px;
+}
+
+.feedback-popup-form-email-input {
+    margin-top: 16px;
+}
+
+.feedback-popup-form-message-input {
+    margin-top: 16px;
+    height: 149px;
+    display: flex;
+}
+
+#feedback-popup-form-submit-button {
+    margin-top: 32px;
+    align-self: flex-end;
+}
+
+#feedback-popup-close-button {
+    background-color: #FCFCFC;
+    top: 32px;
+    left: 518px;
+    position: absolute;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.hidden-block {
+    display: none;
+}
