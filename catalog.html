@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>gllacy shop</title>
+</head>
+
+<body>
+  <header class="page-header">
+    <nav class="page-navigation">
+      <div class="page-logo">
+        <a href="index.html">
+          <img class="page-logo-image" src="src/images/page-logo.svg" alt="Page logo" width="137">
+        </a>
+      </div>
+      <ul class="page-navigation-list">
+        <li class="page-navigation-item catalog">
+          <div class="dropdown-catalog">
+            Каталог
+            <img class="catalog-arrow-down" src="src/images/arow-down.svg" alt="Arrow down" height="16">
+            <ul class="dropdown-catalog-list">
+              <li class="dropdown-catalog-item news">Новинки</li>
+              <li class="dropdown-catalog-item border-for-news"></li>
+              <li class="dropdown-catalog-item">Сливочное</li>
+              <li class="dropdown-catalog-item">Щербеты</li>
+              <li class="dropdown-catalog-item">Фруктовый лед</li>
+              <li class="dropdown-catalog-item">Мелорин</li>
+            </ul>
+          </div>
+        </li>
+        <li class="page-navigation-item">
+          <a class="link" href="#delivery-info">Доставка и оплата</a>
+        </li>
+        <li class="page-navigation-item">
+          <a class="link" href="#gllacy-shop-info">О комании</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="page-menu">
+      <ul class="page-menu-list">
+        <li class="page-menu-item">
+          <a class="link phone-link" href="tel:+78005558628">+7 800 555-86-28</a>
+        </li>
+        <li class="page-menu-item search-block">
+          <button class="button search-button">
+            <img class="search-logo" src="src/images/search.svg" alt="search" height="16" width="16">
+          </button>
+          <form class="search-dropdown-form">
+            <input class="search-input" type="text" placeholder="Поиск по сайту">
+          </form>
+        </li>
+        <li class="page-menu-item enter-button">
+          <button class="button">
+            <img class="enter-logo" src="src/images/enter.svg" alt="enter" height="16" width="16">
+            Вход
+          </button>
+          <form class="enter-dropdown-form">
+            <h3 class="enter-form-title">Личный кабинет</h3>
+            <input class="enter-form-email-input" type="email" placeholder="email@example.com">
+            <input class="enter-form-password-input" type="password" placeholder="password">
+            <div class="enter-form-buttons-and-links-block">
+              <button class="enter-form-submit-button red-big-button">Войти</button>
+              <div class="enter-form-links-block">
+                <a class="enter-form-link" href="#">Забыли пароль?</a>
+                <a class="enter-form-link" href="#">Регистрация</a>
+              </div>
+            </div>
+          </form>
+        </li>
+        <li class="page-menu-item storage-block">
+          <button class="button">
+            <img class="storage-logo" src="src/images/storage.svg" alt="storage" height="16" width="16">
+            Корзина
+          </button>
+          <div class="storage-dropdown">
+            <h3 class="storage-dropdown-h3">Корзина</h3>
+            <ul class="storage-list">
+              <li class="storage-list-item">
+                <div class="item-description">
+                  <img src="src/images/raspberry-ice-cream.png" alt="raspberry ice-cream" width="46">
+                  <div class="item-name">
+                    <h6 class="item-full-name">Малинка</h6>
+                    <p class="signature">1 кг х 310 ₽</p>
+                  </div>
+                </div>
+                <div class="price-block">
+                  <h6 class="item-price">310 ₽</h6>
+                  <button class="storage-list-item-delete-button">
+                    <img src="src/images/cross.svg" alt="Cross button" width="16px">
+                  </button>
+                </div>
+              </li>
+              <li class="storage-list-item">
+                <div class="item-description">
+                  <img src="src/images/bable-gum-ice-cream.png" alt="buble-gum ice-cream" width="46" height="46">
+                  <div class="item-name">
+                    <h6 class="item-full-name">Бабл-гам</h6>
+                    <p class="signature">1,5 кг х 320 ₽</p>
+                  </div>
+                </div>
+                <div class="price-block">
+                  <h6 class="item-price">480 ₽</h6>
+                  <button class="storage-list-item-delete-button">
+                    <img src="src/images/cross.svg" alt="Cross button" width="16px">
+                  </button>
+                </div>
+              </li>
+            </ul>
+            <div class="make-order">
+              <button class="red-big-button">Оформить заказ</button>
+              <h6 class="item-price" id="total-price">Итого: 790 ₽</h6>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <main>
+    <div class="breadcrumb-block">
+      <ul class="breadcrumb-list">
+        <li class="breadcrumb-item">
+          <a href="index.html" class="breadcrumb-item-link">Главная</a>
+          <img src="src/images/chevrons.svg" alt="">
+        </li>
+        <li class="breadcrumb-item">
+          <a href="index.html" class="breadcrumb-item-link">Каталог</a>
+          <img src="src/images/chevrons.svg" alt="">
+        </li>
+        <li class="breadcrumb-item">
+          <a href="index.html" class="breadcrumb-item-link breadcrumb-current-link">Сливочное мороженое</a>
+        </li>
+      </ul>
+      <h2 class="breadcrumb-block-title-h2">Сливочное мороженое</h2>
+    </div>
+    <ul class="catalog-filter-list">
+      <li class="catalog-filter-item filter-sort">
+        <p class="filter-title">Сортировка:</p>
+        <select name="" id="filter-sort-select-list">
+          <option class="filter-sort-select-item">по популярности</option>
+        </select>
+      </li>
+      <li class="catalog-filter-item filter-price">
+        <p class="filter-title">Цена: 100 ₽ – 500 ₽:</p>
+        <select name="" id="filter-sort-select-list">
+          <option class="filter-sort-select-item">по популярности</option>
+        </select>
+      </li>
+      <li class="catalog-filter-item filter-fat">
+        <p class="filter-title">Жирность:</p>
+        <select name="" id="filter-fat-select-list">
+          <option class="filter-fat-select-item">по популярности</option>
+        </select>
+      </li>
+      <li class="catalog-filter-item filter-fillers">
+        <p class="filter-title">Наполнители:</p>
+        <select name="" id="filter-fillers-select-list">
+          <option class="filter-fillers-select-item">по популярности</option>
+        </select>
+      </li>
+      <li class="catalog-filter-item filter-button">
+        <button id="filter-submit-button">Применить</button>
+      </li>
+    </ul>
+    <ul class="goods-list catalog-goods-list">
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/raspberry-ice-cream.png" alt="raspberry ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Малинка</h4>
+          <p class="goods-description">Сливочное мороженое с малиновым джемом</p>
+          <div class="to-buy-block">
+            <div class="item-price">310 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/phistashka-ice-cream.png" alt="phistashka ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Фисташка</h4>
+          <p class="goods-description">Фисташковый пломбир с кусочками шоколада</p>
+          <div class="to-buy-block">
+            <div class="item-price">340 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/blueberry-ice-cream.png" alt="blueberry ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Черника</h4>
+          <p class="goods-description">Крем-брюле с черничным джемом</p>
+          <div class="to-buy-block">
+            <div class="item-price">330 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16">
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/bable-gum-ice-cream.png" alt="bable gum ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Бабл-гам</h4>
+          <p class="goods-description">Ванильный пломбир со сладкой посыпкой</p>
+          <div class="to-buy-block">
+            <div class="item-price">320 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/black-berry-ice-cream.jpg" alt="black-berry ice-cream"
+          width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Ежевика</h4>
+          <p class="goods-description">Сливочное мороженое с ежевичным джемом</p>
+          <div class="to-buy-block">
+            <div class="item-price">330 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/banana-ice-cream.jpg" alt="banana ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Банан</h4>
+          <p class="goods-description">Сливочный пломбир <br> с банановым вкусом</p>
+          <div class="to-buy-block">
+            <div class="item-price">340 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/chocolate-ice-cream.jpg" alt="chocolate ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Шоколадка</h4>
+          <p class="goods-description">Классический шоколадный пломбир</p>
+          <div class="to-buy-block">
+            <div class="item-price">270 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16">
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/strawberry-ice-cream.png" alt="strawberry gum ice-cream"
+          width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Клубничка</h4>
+          <p class="goods-description">Сливочный пломбир <br> с клубничным вкусом</p>
+          <div class="to-buy-block">
+            <div class="item-price">300 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/lemon-ice-cream.jpg" alt="lemon ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Лимон</h4>
+          <p class="goods-description">Освежающий лимонный сорбет</p>
+          <div class="to-buy-block">
+            <div class="item-price">310 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/mentol-ice-cream.jpg" alt="mentol ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Ментол</h4>
+          <p class="goods-description">Сливочный пломбир <br>
+            с ментоловым сиропом</p>
+          <div class="to-buy-block">
+            <div class="item-price">320 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/nuts-ice-cream.jpg" alt="nuts ice-cream" width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Орешек</h4>
+          <p class="goods-description">Фисташковый пломбир с шоколадным сиропом</p>
+          <div class="to-buy-block">
+            <div class="item-price">360 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16">
+            </button>
+          </div>
+        </div>
+      </li>
+      <li class="goods-list-item">
+        <img class="goods-item-image" src="src/images/cream-brule-ice-cream.jpg" alt="cream-brule ice-cream"
+          width="168">
+        <div class="goods-about">
+          <h4 class="goods-name">Крем-брюле</h4>
+          <p class="goods-description">Классическое <br> крем-брюле</p>
+          <div class="to-buy-block">
+            <div class="item-price">320 ₽/кг</div>
+            <button class="add-to-storage-button red-button"><img src="src/images/white-storage.svg" alt="white storage"
+                width="16" height="16"></button>
+          </div>
+        </div>
+      </li>
+    </ul>
+  </main>
+  <footer class=" page-footer">
+    <ul class="social-list">
+      <li class="social-list-item">
+        <a href="https://t.me/troff_webdev" class="link">
+          <img class="telegram-logo-image" src="src/images/telegram-logo.svg" alt="telegram logo" width="24"
+            height="24">
+        </a>
+      </li>
+      <li class="social-list-item">
+        <a href="https://vk.com/i1_trofimov" class="link">
+          <img class="vk-logo-image" src="src/images/vk-logo.svg" alt="vk logo" width="24" height="24">
+        </a>
+      </li>
+      <li class="social-list-item">
+        <a href="https://youtube.com/" class="link">
+          <img class="youtube-logo-image" src="src/images/youtube-logo.svg" alt="youtube logo" width="24" height="24">
+        </a>
+      </li>
+    </ul>
+    <ul class="footer-menu-list">
+      <li class="footer-menu-item">
+        <a href="#" class="link current-link">
+          <img class="heartfill-image" src="src/images/Heart-fill.svg" alt="heartfill image" width="16" height="16">
+          Для поставщиков
+        </a>
+      </li>
+      <li class="footer-menu-item">
+        <a href="#" class="link">
+          О производстве
+        </a>
+      </li>
+      <li class="footer-menu-item">
+        <a href="#" class="link">
+          Наши документы
+        </a>
+      </li>
+      <li class="footer-menu-item">
+        <a href="#" class="link">
+          Экологические стандарты
+        </a>
+      </li>
+    </ul>
+    <div class="created-by">
+      Created By
+      <a href="https://github.com/impudens" class="link">
+        <img class="impudens-github-shield-image" src="src/images/impudens-github-logo.svg" alt="impudens github shield"
+          height="24">
+      </a>
+    </div>
+  </footer>
+  <script src="/src/js/main.js"></script>
+</body>
+
+</html>
