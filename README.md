@@ -29,9 +29,6 @@
 - [x] Оформление репозитория проекта
 - [x] Оформить файл README.md
 - [x] Сверстать сайт [![Ссылка на сайт gllacy shop](https://img.shields.io/badge/-Gllacy_shop-%23FF2F64)](https://impudens.github.io/gllacy-shop/)
-- [ ] Сделать кросс-браузерную и кросс-платформенную поддержку
-- [ ] Сделать адаптивную верстку
-- [ ] Переписать на SASS/SCSS
 
 ## Команда проекта
 [![Ivan Trofimov](https://img.shields.io/badge/-Ivan%20Trofimov-black?logo=GitHub)](https://github.com/impudens)
